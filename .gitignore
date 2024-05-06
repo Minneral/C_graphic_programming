@@ -1,0 +1,33 @@
+# Игнорировать все файлы .rar во всех папках и подпапках
+*.rar
+
+# Игнорировать временные файлы для C# и Visual Studio во всех папках и подпапках
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.sln.ide/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+*.nupkg
+!.nuget/packages/
+!**/project.lock.json
+!**/.tools/
+[TestFf]ilter/
+*.testsettings
+*.vsmdi
+*.testhostconfig
+*.trx
+*.vstestconfig
+*.vsmdicache
+*.testadapter
+_ReSharper*/
+*.[Rr]e[Ss]harper
